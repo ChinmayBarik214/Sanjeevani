@@ -3,7 +3,7 @@ import './Home.scss'
 
 function Header() {
   return (
-    <div className='header'>Header</div>
+    <div className='header'>Sanjeevni</div>
   )
 }
 
