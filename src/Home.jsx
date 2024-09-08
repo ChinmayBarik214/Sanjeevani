@@ -8,7 +8,13 @@ function Home() {
       <div className='grid'>
         <section className='info-left'>
           <h1 className='common-name'>Aloe vera</h1> {/* give diff font later */}
-          <p className='botan-name'>Aloe barbadensis miller</p>
+          <div className='space-bw'>
+            <p className='botan-name'>Aloe barbadensis miller</p>
+            <p>skin care</p>
+          </div>
+          <p>Aloe Vera is a succulent plant that thrives in warm, dry climates.</p>
+
+
           <h2>Medicinal Uses</h2>
           <ul>
             <li>Burn Relief: Aloe Vera is widely used to soothe and heal burns, including sunburns, due to its cooling and anti-inflammatory properties.</li>
@@ -55,10 +61,10 @@ function Home() {
               <li>Spacing: Maintain 50-60 cm between plants and 60-75 cm between rows.</li>
               <li>Irrigation: Use drip irrigation; avoid overwatering.</li>
               <li>Fertilization: Apply minimal organic fertilizer.</li>
-              <li>Weed Control: Regular weeding is essential.</li> 
+              <li>Weed Control: Regular weeding is essential.</li>
             </ol>
           </ul>
-          
+
         </section>
         <footer className='footer'>
           <p className='space-bw'>
