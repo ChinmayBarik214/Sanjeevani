@@ -4,19 +4,37 @@ canvas {
   height: 100%;
 }
 
+$headerHeight: 40px;
+
+.header {
+  height: $headerHeight;
+}
+
+$footerHeight: 50px;
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: calc(100vh - 40px - 50px) 40px; // (height) main - header - footer
+  grid-template-rows: calc(100vh - $headerHeight - $footerHeight) $footerHeight;
   grid-template-areas:
     "info-l model info-r"
     "footer footer footer";
 }
 
-@media (max-width: 540px) {
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: calc((100vh - $headerHeight - $footerHeight) / 2) calc((100vh - $headerHeight - $footerHeight) / 2) $footerHeight;
+    grid-template-areas:
+    "model info-l"
+    "model info-r"
+    "footer footer"
+  }
+}
+
+@media (max-width: 740px) {
   .grid {
     grid-template-columns: 100vw;
-    grid-template-rows: 400px 50px auto auto;
+    grid-template-rows: 400px $footerHeight auto auto;
     grid-template-areas:
     "model"
     "footer"
@@ -39,5 +57,5 @@ canvas {
 
 .footer {
   grid-area: footer;
-  height: 50px;
+  height: $footerHeight;
 }
