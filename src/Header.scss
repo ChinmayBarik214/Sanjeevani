@@ -7,4 +7,20 @@
   padding: 10px;
   font-family: "Merriweather", serif;
   font-weight: 900;
+
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__right a {
+    margin-right: 10px;
+    font-family: 'Poppins', system-ui;
+    font-weight: 400;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
