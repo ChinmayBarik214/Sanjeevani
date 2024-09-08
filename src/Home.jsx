@@ -23,9 +23,11 @@ function Home() {
             <li>Skin Hydration: Aloe Vera gel is an excellent natural moisturizer, particularly for people with oily or sensitive skin. It absorbs quickly without leaving a greasy residue.</li>
             <li>Arthritis Relief: Aloe Vera can be used topically to reduce inflammation and pain associated with arthritis.</li>
             <li>Laxative Effect: Aloe Vera latex has a strong laxative effect and is used to treat constipation. However, it should be used with caution due to potential side effects.</li>
+            <li>Digestive Aid: Aloe Vera juice is sometimes used to soothe and heal the lining of the digestive tract, potentially helping with conditions like irritable bowel syndrome (IBS).</li>
+            <li>Antioxidant Properties: Aloe Vera contains antioxidants that help combat free radicals, supporting the immune system and overall health.</li>
           </ul>
         </section>
-        <canvas className='model'></canvas>
+        <iframe className='model' src='https://chinmaybarik214.github.io/3Daloe_vera/'></iframe>
         <section className='info-right'>
           <h2>Methods of cultivation</h2>
           <ul>
