@@ -70,8 +70,8 @@ function Home() {
         </section>
         <footer className='footer'>
           <p className='space-bw'>
-            <Link href="javascript:return false;" class="btn-push" style={{ color: 'gray' }}>Back</Link>
-            <Link to='fwd' href="javascript:return false;" class="btn-push green">Next</Link>
+            <Link href="javascript:return false;" className="btn-push" style={{ color: 'gray' }}>Back</Link>
+            <Link to='fwd' href="javascript:return false;" className="btn-push green">Next</Link>
           </p>
         </footer>
       </div>
